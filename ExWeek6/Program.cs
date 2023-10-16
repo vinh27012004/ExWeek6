@@ -31,15 +31,15 @@ namespace ExWeek6
             for (int i = 0; i < n; i++)
             {
                 Console.WriteLine("Nhap thong tin nhan vien thu {0}:", i + 1);
-                Console.Write("Mã số: ");
+                Console.Write("Ma so: ");
                 maSo = Console.ReadLine();
-                Console.Write("Họ tên: ");
+                Console.Write("Ho ten: ");
                 string hoTen = Console.ReadLine();
-                Console.Write("Ngày sinh (dd/mm/yyyy): ");
+                Console.Write("Ngay Sinh (dd/mm/yyyy): ");
                 DateTime ngaySinh = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", null);
-                Console.Write("Giới tính (Nam/Nữ): ");
+                Console.Write("Gioi Tinh (Nam/Nữ): ");
                 string gioiTinh = Console.ReadLine();
-                Console.Write("Hệ số lương: ");
+                Console.Write("He so luong: ");
                 double heSoLuong = double.Parse(Console.ReadLine());
 
                 // Tạo đối tượng nhân viên
