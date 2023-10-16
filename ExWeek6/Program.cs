@@ -30,7 +30,7 @@ namespace ExWeek6
             // Nhập thông tin từng nhân viên và thêm vào danh sách
             for (int i = 0; i < n; i++)
             {
-                Console.WriteLine("Nhập thông tin nhân viên thứ {0}:", i + 1);
+                Console.WriteLine("Nhap thong tin nhan vien thu {0}:", i + 1);
                 Console.Write("Mã số: ");
                 maSo = Console.ReadLine();
                 Console.Write("Họ tên: ");

@@ -8,7 +8,7 @@ namespace ExWeek6
 {
     internal class PhongBan
     { 
-        string MaSo {  get; set; }
+        public string MaSo {  get; set; }
 
         public string TenPhongBan {  get; set; }
 
