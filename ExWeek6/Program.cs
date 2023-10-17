@@ -7,7 +7,7 @@ namespace ExWeek6
         static void Main(string[] args)
         {
             Console.WriteLine("Nhap thong tin phong ban:");
-            Console.WriteLine("Ma SO=: ");
+            Console.WriteLine("Ma So: ");
             string maSo = Console.ReadLine();
             Console.WriteLine("Ten Phong Ban: ");
             string tenPhongBan = Console.ReadLine();
@@ -21,7 +21,7 @@ namespace ExWeek6
             pb.MoTa = moTa;
 
             // Nhập số lượng nhân viên
-            Console.Write("Nhập số lượng nhân viên (2 < n < 15): ");
+            Console.Write("Nhap so luong nhan vien (2 < n < 15): ");
             int n = int.Parse(Console.ReadLine());
 
             // Tạo danh sách nhân viên rỗng
@@ -37,7 +37,7 @@ namespace ExWeek6
                 string hoTen = Console.ReadLine();
                 Console.Write("Ngay Sinh (dd/mm/yyyy): ");
                 DateTime ngaySinh = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", null);
-                Console.Write("Gioi Tinh (Nam/Nữ): ");
+                Console.Write("Gioi Tinh (Nam/Nu): ");
                 string gioiTinh = Console.ReadLine();
                 Console.Write("He so luong: ");
                 double heSoLuong = double.Parse(Console.ReadLine());

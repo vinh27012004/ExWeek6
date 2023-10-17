@@ -19,8 +19,8 @@ namespace ExWeek6
         // Phương thức in bảng lương của phòng ban
         public void InBangLuong()
         {
-            Console.WriteLine("Bảng lương của phòng ban {0}", TenPhongBan);
-            Console.WriteLine("Mã nhân viên\tHọ tên nhân viên\tLương");
+            Console.WriteLine("Bang luong cua phong ban {0}", TenPhongBan);
+            Console.WriteLine("Ma nhan vien\tHo ten nhan vien\tLương");
             foreach (var nv in DanhSachNhanVien)
             {
                 Console.WriteLine("{0}\t{1}\t{2}", nv.MaSo, nv.HoTen, nv.TinhLuong());
@@ -30,8 +30,8 @@ namespace ExWeek6
         // Phương thức in danh sách nhân viên đã nghỉ hưu
         public void InDanhSachNghiHuu()
         {
-            Console.WriteLine("Danh sách nhân viên đã nghỉ hưu của phòng ban {0}", TenPhongBan);
-            Console.WriteLine("Mã nhân viên\tHọ tên nhân viên\tNgày sinh\tGiới tính");
+            Console.WriteLine("Danh sach nghi huu cua phong ban {0}", TenPhongBan);
+            Console.WriteLine("Ma nhan vien\tHo ten nhan vien\tNgay sinh\tGioi tinh");
             foreach (var nv in DanhSachNhanVien)
             {
                 if (nv.LaNghiHuu())
