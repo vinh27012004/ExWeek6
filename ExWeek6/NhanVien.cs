@@ -35,7 +35,7 @@ namespace ExWeek6
 
             // Kiểm tra theo giới tính
             if (GioiTinh == "Nam" && tuoi >= 60) return true;
-            if (GioiTinh == "Nữ" && tuoi >= 55) return true;
+            if (GioiTinh == "Nu" && tuoi >= 55) return true;
             return false;
         }
 
