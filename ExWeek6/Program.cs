@@ -54,7 +54,7 @@ namespace ExWeek6
                 pb.DanhSachNhanVien.Add(nv);
             }
 
-            // In bảng lương của phòng ban
+            // In bảng lương của phòng bx`an
             pb.InBangLuong();
 
             // In danh sách nhân viên đã nghỉ hưu

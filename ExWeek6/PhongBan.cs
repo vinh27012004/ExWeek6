@@ -20,7 +20,7 @@ namespace ExWeek6
         public void InBangLuong()
         {
             Console.WriteLine("Bang luong cua phong ban {0}", TenPhongBan);
-            Console.WriteLine("Ma nhan vien\tHo ten nhan vien\tLương");
+            Console.WriteLine("Ma nhan vien\tHo ten nhan vien\tLuong");
             foreach (var nv in DanhSachNhanVien)
             {
                 Console.WriteLine("{0}\t{1}\t{2}", nv.MaSo, nv.HoTen, nv.TinhLuong());
